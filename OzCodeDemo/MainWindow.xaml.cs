@@ -83,7 +83,7 @@ namespace OzCodeDemo
             //or hover over the RunToCursor()-line and click on the green-arrow that appears to the left
             RunToCursor();
 
-            //8. Press F5 to stop debugging and contine the program
+            //8. Press F5 to stop debugging and continue the program
             int six = 6;
             F5WillContinue();
 
@@ -100,14 +100,14 @@ namespace OzCodeDemo
                 }
             };
             Debugger.Break();
-            //10. Hover over insurane and expand insurance, Customer and Address
-            //11. Right-click on insurance and select QuickWatch, then expand the same parts again
-            //12. Right-click on insurance and select Add watch. This should open the Debug->Windows->Watch 1 window.
+            //10. Hover over the insurance variable and expand insurance, Customer and Address
+            //11. Right-click on the insurance variable and select QuickWatch, then expand the same parts again
+            //12. Right-click on the insurance variable and select Add watch. This should open the Debug->Windows->Watch 1 window.
             //13. Go to Debug->Windows->Watch 1 and search for Stockholm. Increase the search Depth if you dont get any results
             //14. Hover over the variable six and press the pin next to the value.
             //15. Hover over the variable six and click on the value. Change it to 7
 
-            //16. Add a breakpoint on the line "sum += i" clicking in the grey area to the left of the line.
+            //16. Add a breakpoint on the line "sum += i" by clicking in the grey area to the left of the line.
             //17. Press F5 to continue   
             int sum = 0;
             for (int i = 0; i < 10; i++)
@@ -120,7 +120,7 @@ namespace OzCodeDemo
                 //21. Add a break-point on "sum +=i"-line.Right click on it and select Actions
                 //22. Enter "I={i} and Sum={sum}" as message and press close
                 //23. Press F5 to continue.
-                //24. Look at the output in the View->Output (Debug) window
+                //24. Look at the output in the View->Output window. Select Debug in "Show output from".
                 sum += i;
             }
             //25. This exercise is now completed. Press F5 and continue with the demos of OzCode  

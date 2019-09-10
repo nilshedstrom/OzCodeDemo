@@ -1,4 +1,11 @@
-﻿# OzCode Demos
+﻿# Visual Studio Demo
+This repository contains some demos to show how to do debugging in Visual Studio 2019.
+1. Clone this repository OR use "Download ZIP" 
+2. Open OzCodeDemo.sln file in Visual Studio
+3. Compile and Run
+4. Click on the Wizard in the top to start the demo and follow the instructions.
+
+# OzCode Demos
 This repository contains several open source demos that showcase the features of [OzCode][1]. 
 Our aim is to help users explore OzCode, and learn how it enhances Visual Studio debugging.  
 Each folder contains a demo and an easy to follow script that will explain more about that feature, and show common use cases.
