@@ -164,7 +164,11 @@ namespace OzCodeDemo
         private void F11WillStepIntoThisFunction()
         {
             //4. Press Shift+F11 to step out of this function
-
+            int i = 0;
+            i = i + 1;
+            i += 1;
+            i++;
+            ++i;
         }
 
         private void F10WillStepOverThisFunction()
